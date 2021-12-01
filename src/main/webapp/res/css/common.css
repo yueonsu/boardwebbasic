@@ -1,0 +1,4 @@
+* { padding: 0; margin: 0; }
+.container { display: grid; grid-template-rows: 100px 1fr 80px; min-height: 100vh; }
+.container .header { background-color: #8b5353; }
+.footer { background-color: #1f1313; color: #fff; }

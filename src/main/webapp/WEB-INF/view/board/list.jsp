@@ -17,8 +17,8 @@
                     <td><c:out value="${item.iboard}"></c:out></td>
                     <td><c:out value="${item.title}"></c:out></td>
                     <td><c:out value="${item.hit}"></c:out></td>
-                    <td><c:out value="${item.writer}"></c:out></td>
-                    <tD><c:out value="${item.rdt}"></c:out></tD>
+                    <td><c:out value="${item.writerNm}"></c:out></td>
+                    <td><c:out value="${item.rdt}"></c:out></td>
                 </tr>
             </tbody>
         </c:forEach>

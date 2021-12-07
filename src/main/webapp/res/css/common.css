@@ -3,11 +3,11 @@
 .topMenu a { text-decoration: none; color: #fff; padding-left: 5px; }
 .topMenu a:hover { color: gray; }
 .topMenu a:active { color: black; }
+.topMenu li:last-child{flex-grid: 1;}
 
 #boardTable { border-collapse: collapse; width: 100%; }
 #boardTable td, #boardTable th { border: 1px solid #000; text-align: center; }
 #boardTable tbody tr:hover { background-color: lightgray; cursor: pointer; }
-
 
 .container { display: grid; grid-template-rows: 100px 1fr 80px; min-height: 100vh; }
 .container .header { align-items: center; display: flex; background-color: #8b5353; }
